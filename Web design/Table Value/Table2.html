@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head>
+	<title>Tables</title>
+	<style>
+	
+		body {
+			background-color:      #459DA1;	
+			background-image:      url('Cloud9-1.jpg');
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;		
+		}
+		
+		div {
+			background-color: skyblue;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            950px;
+			top:              300px;
+			width:            400px;	
+		}
+		
+		table, th, td {
+			border-bottom: 1px solid #DDDDDD;
+			border-collapse: collapse;
+		}
+		th, td {
+			text-align: center;
+			padding: 10px;
+		}
+		th{
+			background-color: black;
+			color: white;
+		}
+		
+		
+		table {
+			width: 400px;
+		}
+		tr:nth-child(even){
+		background-color: #DDD;
+		}
+		tr:nth-child(odd){
+		background-color: #EEE;
+		}
+		tr:hover{
+			background-color: gray;
+			color: white;
+		}
+	</style>
+	
+</head>
+
+<body> 
+
+	<div>
+	<table>
+		<tr>
+			<th>Date</th> <th>Placement</th> 	<th>Tier</th> 	<th>Type</th> 	
+		</tr>
+		<tr>
+			<td>2020-01-25</td>	<td>5-6th</td> <td>A-Tier</td> <td>Offline</td> 	
+		</tr>
+		<tr>
+			<td>2020-01-15</td> <td>9-16th</td> <td>C-Tier</td> <td>Online</td> 	
+		</tr>
+		<tr>
+			<td>2020-01-12</td> <td>1st</td> <td>Qualifier</td> <td>Online</td> 	
+		</tr>
+		<tr>
+			<td>2020-01-09</td> <td>1st</td> <td>Qualifier</td> <td>Online</td> 	
+		</tr>
+		
+	</table>
+	</div>
+
+
+</body>
+
+</html>
